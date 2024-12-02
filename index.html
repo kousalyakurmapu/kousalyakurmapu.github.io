@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>INTERACTIVE QUIZ</h1>
+        <div id="greeting" style="display: none;"></div>
+    </header>
+    <main>
+        <!-- Login Screen -->
+        <div id="login-container">
+            <h2>Login</h2>
+            <form id="login-form">
+                <label for="username">Username:</label>
+                <input type="text" id="username" required>
+                <label for="password">Password:</label>
+                <input type="password" id="password" required>
+                <button type="button" id="login-btn">Login</button>
+                <p id="login-error" style="color: red; display: none;">Invalid credentials. Please try again.</p>
+            </form>
+        </div>
+
+        <!-- Quiz Container -->
+        <div id="quiz-container" style="display: none;">
+            <div id="question">Question will appear here</div>
+            <form id="quiz-form">
+                <div id="options">
+                    <!-- Radio buttons will be dynamically generated -->
+                </div>
+                <button type="button" id="submit-btn">Submit Answer</button>
+            </form>
+        </div>
+
+        <!-- Score Container -->
+        <div id="score-container" style="display: none;">
+            <h2>Your Score: <span id="score"></span></h2>
+            <div id="wrong-answers">
+                <h3>Wrong Answers:</h3>
+                <ul id="wrong-answers-list">
+                    <!-- Wrong answers will be dynamically added here -->
+                </ul>
+            </div>
+            <button id="restart-btn">Restart Quiz</button>
+            <button id="logout-btn">Logout</button> <!-- Logout Button -->
+        </div>
+
+
+    </main>
+    <footer>
+        <p>&copy; 2024 Quiz Website developed by Kousalya Koormapu</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

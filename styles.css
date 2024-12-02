@@ -1,0 +1,194 @@
+body {
+    background-image: url('image1.webp'); /* Replace with your image URL or path */
+    background-size: cover; /* Ensures the image covers the entire page */
+    #background-position: center; /* Centers the image */
+    background-attachment: fixed; /* Keeps the image fixed when scrolling */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 2rem 0;
+    text-align: center;
+    width: 100%;
+}
+
+main {
+    padding: 2rem;
+    width: 90%;
+    max-width: 600px;
+    text-align: center;
+}
+
+#quiz-container, #score-container {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin: 1rem 0;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#options {
+    margin: 1rem 0;
+    text-align: left;
+}
+
+#options label {
+    display: block;
+    margin: 0.5rem 0;
+    cursor: pointer;
+}
+
+input[type="radio"] {
+    margin-right: 0.5rem;
+}
+
+#wrong-answers {
+    margin-top: 1.5rem;
+    text-align: left;
+}
+
+#wrong-answers-list {
+    padding-left: 1.5rem;
+    color: #d9534f; /* Red color for wrong answers */
+}
+
+/* Login Screen Styles */
+#login-container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#login-form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+#login-form input {
+    width: 200px;
+    padding: 5px;
+    margin-bottom: 15px;
+}
+
+#login-btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#login-btn:hover {
+    background-color: #0056b3;
+}
+
+
+
+
+/* Style for login form container */
+#login-container {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Style for the form */
+#login-form {
+    width: 100%;
+}
+
+/* Style for labels and input fields */
+#login-form label {
+    display: block;
+    margin: 20px 0 5px;
+    font-weight: bold;
+}
+
+#login-form input {
+    width: 100%;
+    padding: 6px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+/* Style for login button */
+#login-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#login-form button:hover {
+    background-color: #45a049;
+}
+
+/* Style for the error message */
+#login-error {
+    color: red;
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* Make sure the login form and button align well */
+#login-form input, #login-form button {
+    margin-bottom: 15px;
+}
+
+footer {
+    #background-color: #4CAF50; /* You can change the background color if needed */
+    color: white;  /* Sets the text color to white */
+    text-align: center;
+    padding: 1rem;
+    font-size: 1rem;
+}
+
+
+
+
+
+
